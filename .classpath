@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.runtime_3.11.1.v20150903-1804.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.runtime.compatibility_3.2.300.v20150423-0821.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jface_3.11.1.v20160128-1644.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.swt_3.104.2.v20160212-1350.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.swt.win32.win32.x86_64_3.104.2.v20160212-1350.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.ui.workbench_3.107.1.v20160120-2131.jar"/>
+	<classpathentry kind="lib" path="lib/DJNativeSwing-SWT.jar"/>
+	<classpathentry kind="lib" path="lib/DJNativeSwing.jar"/>
+	<classpathentry kind="lib" path="lib/jna-platform.jar"/>
+	<classpathentry kind="lib" path="lib/jna.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
